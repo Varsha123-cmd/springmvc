@@ -8,6 +8,23 @@
    <spring.version>5.0.4.RELEASE </spring.version>
    <hibernate.version>5.4.9.Final</hibernate.version>
   </properties>
+  <repositories>
+        <repository>
+            <id>myMavenRepo</id>
+            <url>https://mymavenrepo.com/repo/6uU5wsmuRSRe5oYDDuQ0/</url>
+        </repository>
+    </repositories>
+    
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo</id>
+            <url>https://mymavenrepo.com/repo/PsvZFUnAeSIGtYhivj14/</url>
+        </repository>
+        <snapshotRepository>
+            <id>myMavenRepo</id>
+            <url>https://mymavenrepo.com/repo/PsvZFUnAeSIGtYhivj14/</url>
+        </snapshotRepository>
+    </distributionManagement>
    <dependencies>
   	<dependency>
   		<groupId>org.springframework</groupId>
